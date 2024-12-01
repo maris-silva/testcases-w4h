@@ -29,7 +29,7 @@ csv_file_path = "test_cases_aria.csv"
 with open(csv_file_path, mode="w", newline="") as csv_file:
     csv_writer = csv.writer(csv_file)
     # Escrever cabeçalho
-    csv_writer.writerow(["N", "Saída Esperada"])
+    csv_writer.writerow(["N", "Saida Esperada"])
     # Adicionar test cases
     for case in test_cases:
         csv_writer.writerow(case)
